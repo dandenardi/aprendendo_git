@@ -1,0 +1,18 @@
+Aprendizado sobre Git
+
+Neste primeiro módulo foram explorados aspectos relacionados ao versionamento de software, 
+particularmente com base no conceito de Git. A partir desta metodologia é possível que seja
+mantido um histórico de alterações dos códigos, seja os feitos por um desenvolvedor ao longo do tempo 
+ou mais de um desenvolvedor simultâneamente. O diferencial do Git, caso comparado a outras
+metodologias, é que a criação e alteração acontece localmente em forma de "snapshots", o que significa
+que sempre existirá mais versões do arquivo original do projeto, mesmo que ocorram alterações diversas feitas pelos demais
+membros da equipe.
+
+Comandos
+
+Os principais comandos são:
+- add: que acrescenta os arquivos para a fase intermediária de envio (neste ponto eles ainda estão contidos no local);
+- commit: que prepara os arquivos para serem enviados para o repositório;
+- push: que envia os arquivos para o repositório. Neste ponto ficam disponíveis para os demais desenvolvedores;
+- pull: que traz os arquivos alterados no repositório para o local daquele desenvolvedor em específico;
+ 
